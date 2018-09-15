@@ -5,8 +5,8 @@
 @section('content')
 
 	<div class="container">
-		<h2>What is MapYourFriend ?</h2>
-		<p>Phasellus iaculis at turpis in molestie. Morbi eu eleifend augue. Proin in porta quam. Aenean varius varius dictum. Nunc eget mauris hendrerit, vestibulum nisl quis, maximus arcu. Morbi pharetra erat et congue tincidunt. Proin vehicula tellus facilisis, ullamcorper risus quis, dapibus nisi. Donec sagittis vehicula ipsum, eget vehicula quam maximus a.<br><br/>MapYourFriend is the end of a series, which last is <a href="http://google.fr" target="_blank">this.</a></p>
+		<h2>What is {{ env("APP_NAME") }} ?</h2>
+		<p>Phasellus iaculis at turpis in molestie. Morbi eu eleifend augue. Proin in porta quam. Aenean varius varius dictum. Nunc eget mauris hendrerit, vestibulum nisl quis, maximus arcu. Morbi pharetra erat et congue tincidunt. Proin vehicula tellus facilisis, ullamcorper risus quis, dapibus nisi. Donec sagittis vehicula ipsum, eget vehicula quam maximus a.<br><br/>{{ env("APP_NAME") }} is the end of a series, which last is <a href="http://google.fr" target="_blank">this.</a></p>
 
 	<hr>
 
