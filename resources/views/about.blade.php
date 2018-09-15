@@ -1,4 +1,6 @@
-@extends('layouts.master')
+@extends('layouts.master', ['title' => 'About']) 
+
+{{-- Lorsqu'on hérite du layout 'master', on définit une variable 'title' qui vaut 'About'. --}}
 
 @section('content')
 
@@ -10,8 +12,6 @@
 
 <h2>What is the map for ?</h2>
 <p>Mauris aliquet velit convallis congue varius. Quisque ante purus, sagittis vitae tellus id, congue finibus lectus. Nulla consectetur, tellus vitae euismod pretium, velit massa iaculis ligula.</p>
-
-
 
 	</div>
 

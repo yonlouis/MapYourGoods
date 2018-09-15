@@ -1,8 +1,7 @@
-@extends('layouts.master')
+@extends('layouts.master', ['title' => 'Home'])
 
-@section('title')
-    Home
-@stop
+{{-- Lorsqu'on hérite du layout 'master', on définit une variable 'title' qui vaut 'Home'. --}}
+
 
 @section('content')
     <h1 class="text-center">Map</h1>
